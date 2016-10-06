@@ -4,7 +4,4 @@
     "type": "drupal-module",
     "license": "GPL-2.0+",
     "homepage": "https://github.com/TurbojetTechnologies/mixcomponents",
-    "require": {
-        "composer/installers": "~1.0"
-    }
 }
