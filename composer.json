@@ -3,5 +3,5 @@
     "description": "Mixology components module for Drupal 8",
     "type": "drupal-module",
     "license": "GPL-2.0+",
-    "homepage": "https://github.com/TurbojetTechnologies/mixcomponents",
+    "homepage": "https://github.com/TurbojetTechnologies/mixcomponents"
 }
