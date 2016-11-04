@@ -1,0 +1,5 @@
+name: MixComponents
+type: module
+description: 'Mixology Components: reusable UI components (blocks) from the Mixology suite'
+package: Mixology
+core: 8.x
