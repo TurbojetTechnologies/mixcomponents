@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Markup for the Mixology Social Links component.
+ *
+ * Available variables:
+ * - links: A list of social links and associated data. Each item contains:
+ *   - url: URL of social media destination.
+ *   - title: title attribute (most browsers display on hover).
+ *   - class: class attribute.
+ *   - svg: svg icon.
+ */
+#}
+<ul class="mixology-social-links-list">
+  {% for link in links %}
+    {% set class = 'mixology-social-link ' ~ link.class %}
+    <li class="{{ class }}">
+      <a class="{{ class }}" title="{{ link.title }}" href="{{ link.url }}" target="_blank">
+        {{ link.svg | raw }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

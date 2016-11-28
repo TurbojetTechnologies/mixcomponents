@@ -1,0 +1,4 @@
+social-links:
+  css:
+    theme:
+      stylesheets/social-links.css: {}

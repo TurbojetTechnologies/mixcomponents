@@ -1,0 +1,29 @@
+/**
+ * @file
+ *
+ * Import and configure frameworks.
+ */
+
+// Bourbon and Neat import and overrides.
+
+// Import variables and mixins to be used (Bourbon).
+// Note: this expects the module to be installed in modules/contrib/mixcomponents,
+// and bourbon and neat to be installed in the libraries/sass directory.
+// Change the parent directory if your installation is different.
+@import "../../../../libraries/sass/bourbon/bourbon";
+@import "../../../../libraries/sass/neat/neat-helpers";
+
+// Bourbon grid display. 
+$visual-grid:       false;
+$visual-grid-color: #EEEEEE;
+
+// Set to false if you'd like to remove the responsiveness.
+$responsive:    true;
+
+// Set total number of columns.
+$grid-columns:  12;
+
+// Import grid to be used (Bourbon Neat).
+// We load this after we provide our overrides.
+@import "../../../../libraries/sass/neat/neat";
+
